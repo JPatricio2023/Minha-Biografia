@@ -1,0 +1,102 @@
+    *{
+        margin: 0%;
+        font-family: cursive;
+        
+    }  
+    .Cabecalho{
+        background-color: #46a123;
+        padding: 20px;
+    } 
+		/* Estilo para o botão do menu */
+		.menu-icon {
+			display: inline-block;
+			cursor: pointer;
+			padding: 10px;
+			color: #333;
+			font-size: 18px;
+		}
+
+		/* Estilo para o menu */
+		.menu {
+			display: none;
+			position: absolute;
+			top: 60px;
+			left: 0;
+			width: 100%;
+			background-color: #46a123;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		/* Estilo para as opções do menu */
+		.menu a {
+			display: block;
+			padding: 10px;
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+            margin-top: 0%;
+		}
+
+		/* Exibição do menu quando o botão é clicado */
+		.menu-icon:checked + .menu {
+			display: block;
+		}
+
+		/* Estilo para esconder o botão do menu em telas maiores */
+		@media screen and (min-width: 768px) {
+			.menu-icon {
+				display: none;
+			}
+
+			 /* Estilo para o menu em telas maiores */
+			.menu {
+				display: block;
+				position: static;
+				width: auto;
+				background-color: transparent;
+				padding: 0;
+			}
+
+			/* Estilo para as opções do menu em telas maiores */
+			.menu a {
+				display: inline-block;
+				padding: 10px;
+				color: #333;
+				text-decoration: none;
+				font-size: 18px;
+			}
+		}
+    .tabe1{
+        display: table;
+        margin: 20px;
+        margin-block-end: 20px;
+        
+        background-color: rgba(98, 223, 181, 0.801);
+    }
+    .imagem1{
+        display: table-cell;
+        margin: 20px;
+        float: left;
+            }
+    .texto1{
+        margin: 15px;
+        text-align: justify;
+        font-family: cursive;
+    }
+    .texto2{
+        display: block;
+        margin: 20px ;
+        margin-top: -20px;
+        text-align: justify;
+        background-color: rgba(98, 223, 181, 0.801);
+        font-family: cursive;
+        
+         }
+.fundo{
+    margin-top: -20px;
+    background-image: url(imagem/Actualizadas/Muralharefact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+}

@@ -1,0 +1,76 @@
+body {
+    background-image: url(imagem/Actualizadas/futebol1refact.jpeg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animacao 5s linear infinite;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.heade{
+    display: flex;
+}
+p{
+    font-weight: bold;
+}
+
+
+
+
+@keyframes animacao {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -300px 0;
+    }
+}
+.image{
+    margin-left: 30px;
+}
+img{
+    margin-left: 50px;
+    border-radius: 5px;
+    }
+.butao{
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    margin-left: 60%;
+    margin-top: 24px;
+    background-color: darkblue;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+
+}
+
+    @media (max-width: 400px) {
+        video{
+            width: 100%;
+        }
+        .texto7{
+            width: 100%;
+            color: blue;
+        }
+        .texto8{
+            width: 100%;
+            color: blue;
+        }
+    }    
+
+@media (max-width: 700px) {
+    video{
+        width: 100%;
+        color: blue;
+    }
+    .texto7{
+        width: 640px;
+        color: blue;
+    }
+}

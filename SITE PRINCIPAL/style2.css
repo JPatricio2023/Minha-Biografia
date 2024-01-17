@@ -1,0 +1,51 @@
+*{
+    margin: 0,7%;
+    width: auto;
+    background-color: rgb(76, 241, 76) ;   
+}
+.conteudo2{
+    display: table;
+}
+.imagem3{
+    display: table-cell;
+    float: left;
+    width: unset;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.texto5{
+    display: table-cell;
+    float: left;
+    width: 330px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.texto6{
+    display: table-cell;
+    float: left;
+    width: 330px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.imagem4{
+    margin: 25px ;
+    display: table-cell;
+    float: left;
+    width: unset;
+    margin-top: 0px;
+    margin-left: 10px;
+} 
+.texto7{
+    display: table-cell;
+    float: left;
+    width: 330px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.texto8{
+    margin-top: 100%;
+    float: inline-end;
+    width: auto;
+
+}

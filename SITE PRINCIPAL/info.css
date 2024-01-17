@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(imagem/Myfotofull.jpg);
+    background-repeat: no-repeat;
+    background-position: 0.0;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+  }
+  .butao{
+    margin-left: 80%;
+    color: white;
+    width: 70px;
+  }
+  a{
+    text-decoration: none;
+    color: darkblue;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 600px;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: justify;
+    color: white;
+  }
+
+@media screen and (max-width:800px) {
+  .butao{
+    margin-left: 60%;
+  }
+
+}
+  

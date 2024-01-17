@@ -1,0 +1,26 @@
+body{
+    background-image: url(imagem/Actualizadas/em\ casa3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tabela{
+    display: flex;
+}
+.img-item{
+    width: 60px;
+    margin-left: 50px;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+  }
+.butao{
+    background-color: darkblue;
+    padding: 8px;
+    width: 100px;
+}
+.bt-it{
+    color: white;
+    text-decoration: none;
+}

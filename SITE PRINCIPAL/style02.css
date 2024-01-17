@@ -1,0 +1,51 @@
+*{
+    margin: 0%;   
+}   
+body{
+    background-image: url(imagem/Actualizadas/parquinho2.jpeg);
+}
+h2{
+    background-color: aquamarine;
+    margin: 20px;
+    max-width: 1100px;
+}
+.tabe4{
+    display: table;
+    margin: 20px;
+    margin-block-end: 20px;
+    max-width: 1100px;
+    
+    background-color: rgba(98, 223, 181, 0.801);
+}
+.imagem3{
+    display: table-cell;
+    margin: 20px;
+    float: left;
+        }
+.texto5{
+    margin: 15px;
+    text-align: justify;
+
+}
+.tabe5{
+    display: table;
+    margin: 20px;
+    margin-block-end: 20px;
+    max-width: 1100px;
+    
+    background-color: rgba(98, 223, 181, 0.801);
+}
+.imagem4{
+    display: table-cell;
+    margin: 20px;
+    float: left;
+        }
+.texto6{
+    margin: 15px;
+    text-align: justify;
+}
+.nav3{
+    margin: 20px;
+    background-color: rgba(98, 223, 181, 0.801);
+    max-width: 1100px;
+}

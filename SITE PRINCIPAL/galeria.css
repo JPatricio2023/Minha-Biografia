@@ -1,0 +1,38 @@
+    /* Estilo padrão das imagens */
+    body{
+        background-image: url(imagem/Actualizadas/parquinho2.jpeg);
+
+    }
+    .grid-item img {
+        width: 100%;
+        height: auto;
+      }
+      .Cabecalho{    
+      display: flex;
+      background-color: rgb(35, 66, 243);
+      margin-bottom: 20px;
+  
+  }
+  .TextCab{
+      color: white;
+      font-family:cursive;
+      background-color: rgb(35, 66, 243);
+      padding-left: 10px;
+      
+  }
+  .Butao1{
+    background-color: aqua;
+    font-size: 22px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(71, 0, 0);
+    padding: 6px;
+    margin-top: 20px;
+    margin-left: 50%;
+  }
+  .spam{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }

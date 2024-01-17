@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galeria de Fotos com Masonry</title>
+  <link rel="stylesheet" href="galeria.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Inicializa o Masonry
+      $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: 100,
+        gutter: 10
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <div class="Cabecalho">
+        <h1  class="TextCab">Pagina Inicial do site de biografia</h1> 
+        <a href="home.html" class="Butao1">Voltar</a>
+    </div>
+</header>
+<div>
+  <p class="spam">
+    Esta e a galeria da pagina e espero que gostem das imagens e videos da minha biografia e tambem podes ouvir algumas musicas que eu gosto tambem pode aceder a minha foto de infancia
+  </p>
+</div>
+  <div class="grid">
+    <div class="grid-item" style="width: 400px;"><img src="imagem/Myfotofull.jpg"></div>
+    <div class="grid-item" style="width: 300px;"><img src="imagem/Actualizadas/amigas1.jpeg"></div>
+    <div class="grid-item" style="width: 200px;"><img src="imagem/Actualizadas/Defesa2.jpeg"></div>
+    <div class="grid-item" style="width: 300px;"><img src="imagem/Actualizadas/futebol1.jpeg"></div>
+    <div class="grid-item" style="width: 400px;"><img src="imagem/Actualizadas/amigas1.jpeg"></div>
+    <div class="grid-item" style="width: 200px;"><img src="imagem/Actualizadas/Lazer1.jpeg"></div>
+    <div class="grid-item" style="width: 300px;"><img src="imagem/Actualizadas/Em casa1.jpeg"></div>
+    <div class="grid-item" style="width: 200px;"><img src="imagem/Actualizadas/em casa7.jpeg"></div>
+  </div>
+</body>
+</html>
